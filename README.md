@@ -31,22 +31,6 @@ Aplikasi web untuk tes kepribadian Myers-Briggs Type Indicator (MBTI) yang diban
 - Interactive UI dengan smooth transitions
 - Progressive enhancement
 
-## 🛠️ Teknologi yang Digunakan
-
-- **Backend**: Laravel 10.x
-- **Frontend**: Blade Templates + Tailwind CSS
-- **Database**: SQLite (development)
-- **Authentication**: Laravel Breeze
-- **Version Control**: Git
-
-## 📋 Persyaratan Sistem
-
-- PHP >= 8.1
-- Composer
-- Node.js & NPM
-- SQLite extension
-
-
 ## 🎯 Fitur Aplikasi
 
 ### 1. Halaman Utama
@@ -77,27 +61,3 @@ Aplikasi web untuk tes kepribadian Myers-Briggs Type Indicator (MBTI) yang diban
 - Menyimpan semua hasil tes
 - Pagination untuk navigasi
 - Edit dan hapus hasil tes
-
-## 🔐 Authentication Features
-
-- **Guest Access**: Dapat mengikuti tes tanpa login
-- **User Registration**: Pendaftaran akun baru
-- **User Login**: Masuk ke akun existing
-- **Password Reset**: Reset password via email
-- **Protected Routes**: Riwayat tes hanya untuk user login
-
-## 🗃️ Database Schema
-
-### mbti_tests
-- id, user_id, session_id, answers (JSON)
-- result_type, scores untuk setiap dimensi
-- timestamps
-
-### mbti_questions
-- id, question, dimension, option_a, option_b
-- type_a, type_b, order, is_active
-
-### mbti_results
-- id, type, name, description
-- strengths, weaknesses, career_suggestions
-- relationships, color
