@@ -1,2 +1,0 @@
-# MBTI-Insight
-MBTI Test
